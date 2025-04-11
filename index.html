@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portifólio Marcos Vinicius</title>
+    <!-- CSS do Projeto -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Icon do fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Dev Icon Fonts -->    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+
 </head>
 <body>
-    <h1>Marcos Vinicius</h1>
+    <main id="container"> <!--Conteudo principal-->
+        <aside id="bio-container">
+            <h2>Marcos Vinicius Oliveira</h2>
+            <img id="bio-image" src="img/foto-de-marcos.png" alt="Marcos Vinicius Oliveira">
+            <p>Olá, meu nome é Marcos Vinicius Oliveira, e estou em busca de me tornar um <span class="highlight">Desenvolvedor FrontEnd</span></p>
+            <p id="welcome-text">Seja Bem-vindo!</p>
+            <ul id="social-container">
+                <li> <a href="#"><i class="fa-brands fa-linkedin"></i></a> </li> 
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                               
+            </ul>
+            <div id="email-container">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:mvinicius.developer@gmail.com" target="_blank">mvinicius.developer@gmail.com</a>                
+            </div>
+        </aside><!--conteudo lateral, usado para conteudos secundarios-->
+        
+        <section id="about-container"><!--indica uma seção do nosso site-->
+            <h1 id="name">Marcos Vinicius Oliveira</h1>
+            <p id="title"><sapn class="highlight">Futuro Desenvolvedor FrontEnd</sapn></p>
+
+            <p class="description">Fala aí! Sou o Marcos Vinicius, estudante de <span class="highlight">Análise e Desenvolvimento de Sistemas</span> e atualmente focado em me tornar um <span class="highlight">desenvolvedor Front-End.</span>
+            Já concluí meus estudos em <span class="highlight">HTML</span>, tô mandando ver em <span class="highlight">CSS</span> e sigo no ritmo com <spanclass="highlight">Git, GitHub e JavaScript.</span> Ainda este ano, quero avançar em <span class="highlight">TypeScript, React</span> e tudo parame tornar um bom dev Front-End.                
+            Tô construindo meus projetos aos poucos, aprendendo na prática e com muito foco na evolução!</p>
+
+            <a href="https://github.com/vinioliveira-developer" id="btn-projects" target="_blank"><i class="fa-solid fa-share-nodes"></i><span>Ver Projetos</span></a>
+            
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="descriotion">Conheça as tecnologias que eu domino:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <img src="img/icons8-html5-48.png" alt="html5">
+                    <img src="img/icons8-css-48.png" alt="css3">
+                    <img src="img/icons8-git-48.png" alt="git">
+                    <img src="img/icons8-github-64.png" alt="github">                    
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">Front-end Frameworks</p>                    
+                </div>
+            </div>
+        </section>
+    </main>    
 </body>
 </html>
